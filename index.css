@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Behemoth CG SemiCond";
+  src: url(assets/Behemoth\ CG\ SemiCond\ Regular.otf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    color: white;
+    font-family: "Behemoth CG SemiCond", sans-serif;
+    font-weight: 200;
+    padding-left: 25px;
+  }
+
+  nav {
+    padding-left: 25px;
+    padding-top: 25px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+
+    .navItem {
+      text-decoration: none;
+      a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto Mono", sans-serif;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: gainsboro;
+      }
+    }
+  }
+}
+
+main {
+  height: 200vh;
+  width: 80%;
+  margin-left: 20%;
+
+  .mainSection {
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto Mono", sans-serif;
+    color: white;
+
+    background-image: url(assets/mainBg.gif);
+    background-size: cover;
+
+    div {
+      padding: 20px;
+    }
+  }
+
+  .tracksSection{
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto Mono", sans-serif;
+    color: white;
+
+    background-color: black;
+
+    div {
+      padding: 20px;
+    }
+  }
+}
